@@ -1,2 +1,3 @@
-# Retro-FPN (ICCV 2023)
-Retro-FPN: Retrospective Feature Pyramid Network for Point Cloud Semantic Segmentation 
+# Retro-FPN: Retrospective Feature Pyramid Network for Point Cloud Semantic Segmentation (ICCV 2023)
+
+[Peng Xiang*](https://scholar.google.com/citations?user=Bp-ceOAAAAAJ&hl=zh-CN&oi=sra), [Xin Wen*](https://scholar.google.com/citations?user=7gcGzs8AAAAJ&hl=zh-CN&oi=sra), [Yu-Shen Liu](http://cgcad.thss.tsinghua.edu.cn/liuyushen/), [Hui Zhang](https://www.thss.tsinghua.edu.cn/en/faculty/huizhang.htm), [Yi Fang](https://scholar.google.com/citations?user=j-cyhzwAAAAJ&hl=en), [Zhizhong Han](https://h312h.github.io/)
