@@ -34,6 +34,14 @@ python setup.py install --blas_include_dirs=${CONDA_PREFIX}/include --blas=openb
   ln -s /path_to_scannet_dataset data/ScanNet
   ``` 
 
+### Pre-trained model
+We provide the following pretrained models:
+
+| Dataset |  Train |  Model |
+|----|----|----|
+| S3DIS | [log](https://drive.google.com/file/d/12nuOQK3CXod9-wsnhwSWZCe-u3RGzfdF/view?usp=drive_link) | [ckpt](https://drive.google.com/file/d/1jzlAKVJCtlTYLqhg7adnv8JkHZyojx9W/view?usp=drive_link) |
+| ScanNet | [log](https://drive.google.com/file/d/1Z9jwsl14HMkTbiuZuwBlhN4Jptqra5TW/view?usp=drive_link) | [ckpt](https://drive.google.com/file/d/1HAOxlbNm2aFkTEIiVRJhBQYCWda1ZBaR/view?usp=drive_link) |
+
 ### Usage
 - Train
   - specify the configurations on the [config file](./config) and run:

@@ -20,6 +20,13 @@ mkdir -p data
 ln -s /path_to_s3dis_dataset dataset/s3dis
 ```
 
+### Pre-trained model
+We provide the following pretrained model:
+
+| Dataset | mIoU | mAcc | allAcc | Train | Test | Model |
+|----|----|----|----|----|----|----|
+| S3DIS | 73.0 | 79.1 | 91.8 | [log](https://drive.google.com/file/d/15FtI8Zk5i0iNtGFlCRYq2HIPqsV8wyll/view?usp=drive_link) | [log](https://drive.google.com/file/d/1PjgkzlseeUJWfiDLuh9G2CezCluOcelT/view?usp=drive_link) | [ckpt](https://drive.google.com/file/d/1B6-hMI3PtRGluB2-io6gI7m4Qp5fXu0X/view?usp=drive_link) |
+
 ### Usage
 - Train
   - specify the configurations on the [config file](./config) and do:
