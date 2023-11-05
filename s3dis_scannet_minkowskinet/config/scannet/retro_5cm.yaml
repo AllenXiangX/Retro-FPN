@@ -1,0 +1,56 @@
+DATA:
+  data_name: scannet
+  data_root: data/ScanNet
+  classes: 20
+  aug: True
+  voxelSize: 0.05
+  voxel_max: # 120000
+
+
+TRAIN:
+  arch: retro_fpn
+  ignore_label: 20 # 20 # 0-19 valid, 20 invalid
+  train_gpu:  [0, 1, 2, 3] #
+  workers: 8  # data loader workers
+  batch_size: 16  # batch size for training
+  batch_size_val: 8 # batch size for validation during training, memory and speed tradeoff
+  base_lr: 0.1
+  loop: 6
+  epochs: 100
+  start_epoch: 0
+  power: 0.9
+  momentum: 0.9
+  weight_decay: 0.0001
+  manual_seed: 1463
+  print_freq: 10
+  save_freq: 1
+  save_path: exp/scannet/retrofpn
+  weight: 
+  resume: 
+  evaluate: True  
+  eval_freq: 1
+  train_split: train
+
+
+Model:
+  n_samples: 16,  # knn
+  plane_share: 8,
+  plane_cls: 32,
+  strides: [1, 1, 1, 1, 1]
+
+Distributed:
+  dist_url: tcp://127.0.0.1:6791
+  dist_backend: 'nccl'
+  multiprocessing_distributed: True
+  world_size: 1
+  rank: 0
+
+TEST:
+  split: val  # split in [train, val and test]
+  val_benchmark: True
+  test_workers: 4
+  test_gpu: [0, 1, 2, 3]
+  test_batch_size: 4
+  model_path: checkpoints/scannet_retrofpn.pth.tar
+  save_folder: exp/scannet/retrofpn
+  test_repeats: 7
