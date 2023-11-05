@@ -1,0 +1,7 @@
+h5py
+pyyaml
+sharedarray
+tensorboardx
+scipy==1.4.1
+tqdm
+open3d
