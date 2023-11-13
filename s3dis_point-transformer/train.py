@@ -109,7 +109,7 @@ def main_worker(gpu, ngpus_per_node, argss):
         model = Model(c=args.fea_dim, k=args.classes)
     elif args.arch == 'retro_fpn':
         from model.retrofpn.retrofpn_seg import retrofpn_seg_repro as Model
-        model = Model(c=args.fea_dim, k=args.classes, n_samples_retro=n_samples_retro)
+        model = Model(c=args.fea_dim, k=args.classes, n_samples_retro=args.n_samples_retro)
     else:
         raise Exception('architecture not supported yet'.format(args.arch))
     
