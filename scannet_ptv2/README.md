@@ -81,7 +81,6 @@ sh scripts/train.sh -p ${INTERPRETER_PATH} -g ${NUM_GPU} -d ${DATASET_NAME} -c $
 For example:
 
 ```bash
-cd scannet
 sh scripts/train.sh -p python -d scannet -c semseg-retrofpn -n semseg-retrofpn
 ```
 
