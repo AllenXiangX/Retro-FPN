@@ -118,11 +118,10 @@ If you use this code, please cite:
 }
 
 
-@inproceedings{zhao2021point,
-  title={Point transformer},
-  author={Zhao, Hengshuang and Jiang, Li and Jia, Jiaya and Torr, Philip HS and Koltun, Vladlen},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  pages={16259--16268},
-  year={2021}
+@inproceedings{wu2022point,
+  title     = {Point transformer V2: Grouped Vector Attention and Partition-based Pooling},
+  author    = {Wu, Xiaoyang and Lao, Yixing and Jiang, Li and Liu, Xihui and Zhao, Hengshuang},
+  booktitle = {NeurIPS},
+  year      = {2022}
 }
 ```
