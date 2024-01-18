@@ -75,7 +75,7 @@ pip install --upgrade git+https://github.com/mit-han-lab/torchsparse.git
 ```
 
 ## Data Preparation
-Please refer to [PointTransformer V2](https://github.com/Pointcept/PointTransformerV2) for preparaing data
+Please refer to [PointTransformer V2](https://github.com/Pointcept/PointTransformerV2) for preparing data.
 
 ## Quick Start
 ### Training
