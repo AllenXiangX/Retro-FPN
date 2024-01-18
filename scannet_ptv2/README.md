@@ -101,7 +101,7 @@ sh scripts/test.sh -p python -d scannet -n semseg-retrofpn -w model_best
 We provide the pretrained models for the Point Transformer V2 +  Retro-FPN on Scannet. Please download the pretrained models from [Google Drive](https://drive.google.com/drive/folders/1wmtZIGlMFYZQ_zY7ghgNDFyB_PDXDa1P?usp=sharing) .
 
 ### Acknowledgement
-This repo is based on [Point Transformer](https://github.com/POSTECH-CVLab/point-transformer). We thank the authors for their great job!
+This repo is based on [Point Transformer V2](https://github.com/Pointcept/PointTransformerV2). We thank the authors for their great job!
 
 
 ## References
